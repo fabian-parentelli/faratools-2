@@ -1,0 +1,28 @@
+:root {
+    /* background */
+    --cbg: #141414;
+    --cbg2: #1e1e1e;
+
+    /* Superficies */
+    --csfa: #282828;
+    --csf2: #3c3c3c;
+    --csf3: #28283c;
+    --csf4: #3c3c50;
+
+    /* Texts */
+    --ctext: #ffffff;
+    --ctextm: #b5b5b5;
+
+    /* accents */
+    --caccent: #00a67e;
+    --caccentl: #74aa9c;
+
+    /* borders */
+    --cborder: #333333;
+    --cborderl: #444444;
+
+    /* states */
+    --chover: #1f1f1f;
+    --cactive: #0f0f0f;
+    --cmuted: #202020;
+}

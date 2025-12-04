@@ -1,0 +1,9 @@
+.btnA {
+    background-color: var(--ctext);
+    color: var(--cbg2);
+    transition: .3s ease-in-out;
+}
+
+.btnA:hover {
+    background-color: var(--ctextm);
+}
