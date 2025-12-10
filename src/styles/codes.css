@@ -1,0 +1,22 @@
+.cod-back {
+    background-color: var(--cactive);
+    padding: 1rem;
+    width: fit-content;
+    border-radius: 6px;
+}
+
+.cod-blue {
+    color: #2196f3;
+}
+
+.cod-gray {
+    color: gray;
+}
+
+.cod-skyblue {
+    color: #81c9fa;
+}
+
+.cod-orange {
+    color: #ffa372;
+}

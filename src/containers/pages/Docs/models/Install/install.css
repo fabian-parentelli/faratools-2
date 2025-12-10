@@ -1,0 +1,20 @@
+.installText {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 80%;
+}
+
+.installText p {
+    line-height: 2;
+}
+
+.introDiv {
+    display: flex;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+.introDiv .introDivText {
+    color: var(--caccent);
+}

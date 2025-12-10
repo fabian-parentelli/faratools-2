@@ -1,0 +1,15 @@
+.docs {
+    padding: 70px 1rem;
+    min-height: 100vh;
+    width: 100%;
+    
+    display: flex;
+    gap: 1rem;
+}
+
+@media (max-width: 767px) {
+
+    .docs {
+        padding-top: 0;
+    }
+}

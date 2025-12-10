@@ -1,0 +1,18 @@
+.modBottom {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modBottom p {
+    color: var(--caccent);
+    cursor: pointer;
+    padding: 12px;
+    transition: .3s ease-in-out;
+    border-radius: 12px;
+}
+
+.modBottom p:hover {
+    background-color: var(--cbg2);
+}

@@ -1,0 +1,17 @@
+.intro {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.intro .introSect {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 90%;
+}
+
+.intro .introSect p {
+    line-height: 2;
+    color: gainsboro;
+}
