@@ -1,8 +1,11 @@
 import './install.css';
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { Icons, Tooltip } from "fara-comp-react";
 
 const Install = ({ setParams }) => {
+
+    const navigate = useNavigate();
 
     const [copy, setCopy] = useState({ copy: false, type: null });
 
@@ -73,7 +76,7 @@ const Install = ({ setParams }) => {
 
             <section className='modBottom'>
                 <p onClick={() => setParams({ sect: 'intr' })}>Introducción</p>
-                <p onClick={() => setParams({ sect: 'inst' })}>Instalación</p>
+                <p onClick={() => { navigate('/page/icons'); setParams({ sect: 'import' }) }}>Icons</p>
             </section>
         </div>
     );

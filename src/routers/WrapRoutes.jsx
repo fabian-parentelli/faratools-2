@@ -3,7 +3,9 @@ import ScrollToTop from "../components/utils/ScrollToTop";
 import NavBar from "../containers/layouts/NavBar/NavBar";
 import Body from "../containers/Body/Body";
 import Footer from "../containers/layouts/Footer/Footer";
-import Docs from "../containers/pages/Docs/Docs";
+import Pages from "../containers/pages/Pages";
+import Doc from "../containers/pages/Doc/Doc";
+import Icons from "../containers/pages/Icons/Icons";
 
 const WrapRoutes = () => {
     
@@ -15,7 +17,11 @@ const WrapRoutes = () => {
 
                 <Routes>
                     <Route path="/" element={<Body />} />
-                    <Route path="/doc" element={<Docs />} />
+
+                    <Route path="page" element={<Pages />}>
+                        <Route path="doc" element={<Doc />} />
+                        <Route path="icons" element={<Icons />} />
+                    </Route>
                 </Routes>
 
                 <Footer />
