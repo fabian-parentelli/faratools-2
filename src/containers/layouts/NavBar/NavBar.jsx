@@ -1,19 +1,19 @@
 import './navBar.css';
-import { Icons, Modal } from "fara-comp-react";
 import { useState, useEffect } from 'react';
+import { Icons, Modal } from "fara-comp-react";
 import { Link, useNavigate } from 'react-router-dom';
 
 const NavBar = () => {
 
     const navigate = useNavigate();
-    const [traslate, setTraslate] = useState('0');
     const [open, setOpen] = useState(false);
+    const [traslate, setTraslate] = useState('0');
 
     useEffect(() => {
         const handleResize = () => {
             if (window.innerWidth < 767) setTraslate('-320px');
         };
-        handleResize(); 
+        handleResize();
         window.addEventListener('resize', handleResize);
         return () => window.removeEventListener('resize', handleResize);
     }, []);
@@ -28,7 +28,7 @@ const NavBar = () => {
             <section className='navBarSect' style={{ transform: window.innerWidth < 767 ? `translateX(${traslate})` : '' }}>
                 <img src="/logo.png" width='30px' alt="logo" onClick={() => navigate('/')} />
                 <Link to={'/page/doc?sect=intr'}>Doc</Link>
-                <Link>Iconos</Link>
+                <Link to={'/page/icons?sect=import'}>Iconos</Link>
                 <Link>Tools</Link>
                 <Link>Componentes</Link>
                 <Link>Css</Link>

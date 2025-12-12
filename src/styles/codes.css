@@ -20,3 +20,15 @@
 .cod-orange {
     color: #ffa372;
 }
+
+.cod-pink {
+    color: #B885B8;
+}
+
+.cod-yellow {
+    color: yellow;
+}
+
+.cod-green {
+    color: var(--caccent);
+}

@@ -1,0 +1,30 @@
+.imple {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.imple .impleDiv {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+.imple .impleInputs {
+    display: flex;
+    gap: 1rem;
+}
+
+.imple .impleInputs label {
+    max-width: 120px;
+    color: gray;
+}
+
+.imple .impleInputs label input {
+    width: 100%;
+    background-color: var(--cbg);
+    border: none;
+    border-bottom: 1px solid var(--csf4);
+    color: var(--csf4);
+}

@@ -1,11 +1,16 @@
-// import './icons.css';
+import Imple from "./Imple/Imple";
+import Import from "./Import/Import";
+import { useOutletContext } from 'react-router-dom';
 
 const Icons = () => {
-    
+
+    const { params, setParams } = useOutletContext();
+
     return (
-        <div className="Icons">
-            Icons
-        </div>
+        <>
+            {params?.sect === 'import' && <Import setParams={setParams} />}
+            {params?.sect === 'impl' && <Imple />}
+        </>
     );
 };
 
