@@ -1,0 +1,27 @@
+.iconPage {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.iconPage h3 {
+    color: gray;
+    margin-bottom: 12px;
+}
+
+.iconPage .iconPageSect {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.iconPage .iconPageSect div {
+    padding: 1rem;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.iconPage .iconPageSect div:hover {
+    background-color: var(--csf3);
+}

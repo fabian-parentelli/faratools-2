@@ -29,6 +29,10 @@
     color: yellow;
 }
 
+.cod-skyyellow {
+    color: #fdeaa0;
+}
+
 .cod-green {
     color: var(--caccent);
 }

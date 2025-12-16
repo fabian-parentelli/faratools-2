@@ -36,7 +36,7 @@ const Import = ({ setParams }) => {
 
             <section className='modBottom'>
                 <p onClick={() => { navigate('/page/doc?sect=intr'); setParams({ sect: 'intr' }) }}>Documentación</p>
-                <p onClick={() => setParams({sect: 'impl'})}>Icons</p>
+                <p onClick={() => setParams({sect: 'impl'})}>Implementación</p>
             </section>
         </div>
     );

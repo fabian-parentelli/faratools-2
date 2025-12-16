@@ -1,5 +1,5 @@
 const versions = {
-    generic: '0.0.10'
+    generic: '0.0.12'
 };
 
 export { versions };

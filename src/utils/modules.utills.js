@@ -30,7 +30,7 @@ export const modIcons = [
     {
         id: 6,
         name: 'Iconos',
-        link: 'vew'
+        link: 'icons'
     },
     {
         id: 7,
@@ -45,7 +45,7 @@ export const modIcons = [
     {
         id: 9,
         name: 'Tools',
-        mod: 'vew'
+        mod: 'icons'
     },
     {
         id: 10,
