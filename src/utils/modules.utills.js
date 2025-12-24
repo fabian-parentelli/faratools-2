@@ -14,6 +14,11 @@ export const modDoc = [
         name: 'Iconos',
         mod: 'icons?sect=import'
     },
+    {
+        id: 10,
+        name: 'Tools',
+        mod: '/page/tools?sect=intr'
+    },
 ];
 
 export const modIcons = [
@@ -45,21 +50,26 @@ export const modIcons = [
     {
         id: 9,
         name: 'Tools',
-        mod: 'icons'
+        mod: '/page/tools?sect=intr'
     },
-    {
-        id: 10,
-        name: 'Componentes',
-        mod: 'vew'
-    },
+];
+
+export const toolIcons = [
     {
         id: 11,
-        name: 'Css',
-        mod: 'vew'
+        name: 'Introducción',
+        link: 'intr'
     },
     {
         id: 12,
-        name: 'Contacto',
-        mod: 'vew'
+        name: 'Documentación',
+        mod: '/page/doc?sect=intr'
+    },
+    {
+        id: 13,
+        name: 'Iconos',
+        mod: '/page/icons?sect=import'
     },
 ];
+
+// 13

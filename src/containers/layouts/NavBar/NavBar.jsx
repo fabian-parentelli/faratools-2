@@ -29,7 +29,7 @@ const NavBar = () => {
                 <img src="/logo.png" width='30px' alt="logo" onClick={() => navigate('/')} />
                 <Link to={'/page/doc?sect=intr'}>Doc</Link>
                 <Link to={'/page/icons?sect=import'}>Iconos</Link>
-                <Link>Tools</Link>
+                <Link to={'/page/tools?sect=intr'}>Tools</Link>
                 <Link>Componentes</Link>
                 <Link>Css</Link>
                 <Link>Contacto</Link>

@@ -1,0 +1,19 @@
+.tooltipNav {
+    position: fixed;
+    right: 4%;
+    width: 200px;
+    min-height: 300px;
+    border-radius: 8px;
+    background-color: var(--cactive);
+    overflow: hidden;
+}
+
+.tooltipNav p {
+    padding: 1rem;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+.tooltipNav p:hover {
+    background-color: var(--cbg2);
+}

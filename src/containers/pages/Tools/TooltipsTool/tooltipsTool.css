@@ -1,0 +1,18 @@
+.tooltipsTool {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.tooltipsTool .tooltipsToolSect {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.tooltipsTool .tooltipsToolSect .tooltipsToolSectDiv {
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}

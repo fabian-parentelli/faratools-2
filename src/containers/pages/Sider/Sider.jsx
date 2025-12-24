@@ -1,7 +1,7 @@
 import './sider.css';
 import { useEffect, useState } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
-import { modDoc, modIcons } from '../../../utils/modules.utills.js';
+import { modDoc, modIcons, toolIcons } from '../../../utils/modules.utills.js';
 
 const Sider = ({ params, setParams }) => {
 
@@ -12,7 +12,7 @@ const Sider = ({ params, setParams }) => {
 
     useEffect(() => {
         const path = location.pathname.split('/')[2];
-        const maps = { doc: modDoc, icons: modIcons };
+        const maps = { doc: modDoc, icons: modIcons, tools: toolIcons };
         setModules(maps[path] || []);
     }, [location.pathname]);
 

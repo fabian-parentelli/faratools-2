@@ -31,7 +31,7 @@ const IconPage = ({ setParams }) => {
 
             <section className='modBottom'>
                 <p onClick={() => setParams({ sect: 'impl' })}>Implementación</p>
-                <p onClick={() => setParams({ sect: 'icons' })}>Actualización</p>
+                <p onClick={() => setParams({ sect: 'update' })}>Actualización</p>
             </section>
             <Snackbar snack={snack} />
         </div>

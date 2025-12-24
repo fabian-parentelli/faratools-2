@@ -6,6 +6,7 @@ import Footer from "../containers/layouts/Footer/Footer";
 import Pages from "../containers/pages/Pages";
 import Doc from "../containers/pages/Doc/Doc";
 import Icons from "../containers/pages/Icons/Icons";
+import Tools from "../containers/pages/Tools/Tools";
 
 const WrapRoutes = () => {
     
@@ -21,6 +22,7 @@ const WrapRoutes = () => {
                     <Route path="page" element={<Pages />}>
                         <Route path="doc" element={<Doc />} />
                         <Route path="icons" element={<Icons />} />
+                        <Route path="tools" element={<Tools />} />
                     </Route>
                 </Routes>
 
