@@ -29,6 +29,7 @@
     padding: 12px 12px 12px 1rem;
     transition: .3s ease-in-out;
     cursor: pointer;
+    user-select: none;
 }
 
 .siderData p:hover {

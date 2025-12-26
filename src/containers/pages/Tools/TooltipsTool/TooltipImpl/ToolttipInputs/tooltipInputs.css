@@ -1,0 +1,15 @@
+#tooltipInputs {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+#tooltipInputs div input, #tooltipInputs div select {
+    height: 30px;
+    margin-top: 3px;
+    background-color: #141414;
+    border: none;
+    border-bottom: 1px solid gray;
+    color: white;
+    width: 140px;
+}

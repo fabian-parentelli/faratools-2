@@ -1,0 +1,22 @@
+#tooltipImpl {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#tooltipImpl h4 {
+    color: var(--caccent);
+}
+
+#tooltipImpl .tooltipImplSect {
+    margin-top: 2rem;
+    display: flex;
+    gap: 3rem;
+}
+
+#tooltipImpl .tooltipImplSect div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 4rem;
+}

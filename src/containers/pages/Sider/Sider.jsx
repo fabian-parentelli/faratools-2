@@ -21,7 +21,7 @@ const Sider = ({ params, setParams }) => {
 
             <section className='siderTop'>
                 <img src="/logo.png" width='20px' alt="img" />
-                <h5>Documentación</h5>
+                <h5>Navegación</h5>
             </section>
 
             <section className='siderData'>

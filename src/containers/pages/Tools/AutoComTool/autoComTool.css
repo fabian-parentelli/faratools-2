@@ -1,22 +1,21 @@
-.tooltipsTool {
+.autoComTool {
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
 
-.tooltipsTool .tooltipsToolSect {
+.autoComTool .autoComToolSect {
     display: flex;
-    flex-direction: column;
     gap: 1rem;
 }
 
-.tooltipsTool .tooltipsToolSect .tooltipsToolSectDiv {
+.autoComTool .autoComToolSect .autoComToolDiv {
     width: 750px;
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
 
-.tooltipsTool .tooltipsToolSect .tooltipsToolSectDiv h4 {
+.autoComTool h4 {
     color: var(--caccent);
 }

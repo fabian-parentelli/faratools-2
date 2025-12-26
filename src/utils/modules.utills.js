@@ -70,6 +70,16 @@ export const toolIcons = [
         name: 'Iconos',
         mod: '/page/icons?sect=import'
     },
+    {
+        id: 15,
+        name: 'AutoComplete',
+        link: 'autocomplete'
+    },
+    {
+        id: 14,
+        name: 'Tooltips',
+        link: 'tooltip'
+    },
 ];
 
-// 13
+// 15

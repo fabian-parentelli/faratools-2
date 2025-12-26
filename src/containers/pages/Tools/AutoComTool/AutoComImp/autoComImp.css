@@ -1,0 +1,20 @@
+.autoComImp {
+    margin-top: 1rem;
+}
+
+.autoComImp h4 {
+    color: var(--caccent);
+}
+
+.autoComImp p {
+    line-height: 2;
+}
+
+.autoComImp .autoComImpCode {
+    width: 390px;
+}
+
+.autoComImp .autoComImpCode .tooltipImpCodeDiv {
+    display: flex;
+    align-items: flex-end;
+}

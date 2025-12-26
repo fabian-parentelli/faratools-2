@@ -14,7 +14,7 @@ const ToolsIntro = ({ setParams }) => {
         
             <section className='modBottom'>
                 <p onClick={() => { navigate('/page/icons?sect=import'); setParams({ sect: 'import' }) }}>Iconos</p>
-                <p onClick={() => setParams({sect: 'tooltip'})}>Tooltip</p>
+                <p onClick={() => setParams({sect: 'autocomplete'})}>AutoComplete</p>
             </section>
         </div>
     );

@@ -1,0 +1,19 @@
+.autoComExecute {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.autoComExecute h4 {
+    color: var(--caccent);
+}
+
+.autoComExecute .autoComExecutePP {
+    line-height: 2;
+    font-size: 13px;
+}
+
+.autoComExecute .autoComExecutePP strong {
+    color: var(--caccent);
+}

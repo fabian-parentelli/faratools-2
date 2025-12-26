@@ -12,6 +12,8 @@
     padding: 1rem;
     cursor: pointer;
     transition: .3s ease-in-out;
+    color: white;
+    text-decoration: none;
 }
 
 .tooltipNav p:hover {
