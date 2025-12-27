@@ -1,0 +1,26 @@
+.badgeToolInputs {
+    display: flex;
+    gap: 1rem;
+}
+
+.badgeToolInputs select {
+    width: 160px;
+    height: 30px;
+    background-color: #141414;
+    border: none;
+    color: white;
+    border-bottom: 1px solid gray;
+}
+
+.badgeToolView {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.badgeToolView .badgeToolViewBade {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

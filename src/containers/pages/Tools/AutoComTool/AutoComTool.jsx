@@ -16,7 +16,7 @@ const AutoComTool = ({ setParams }) => {
                     <AutoComExecute />
                 </div>
 
-                <TooltipNav />
+                <TooltipNav b={450} c={1300} />
             </section>
 
             <h4>Actualización</h4>
@@ -25,7 +25,7 @@ const AutoComTool = ({ setParams }) => {
 
             <section className='modBottom'>
                 <p onClick={() => setParams({ sect: 'intr' })}>Herramientas</p>
-                <p onClick={() => setParams({ sect: 'tooltip' })}>Tooltip</p>
+                <p onClick={() => setParams({ sect: 'badge' })}>Badge</p>
             </section>
         </div>
     );

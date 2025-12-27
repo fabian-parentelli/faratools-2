@@ -76,10 +76,15 @@ export const toolIcons = [
         link: 'autocomplete'
     },
     {
+        id: 16,
+        name: 'Bagde',
+        link: 'badge'
+    },
+    {
         id: 14,
         name: 'Tooltips',
         link: 'tooltip'
     },
 ];
 
-// 15
+// 16

@@ -16,3 +16,7 @@
 .modBottom p:hover {
     background-color: var(--cbg2);
 }
+
+.colaccent {
+    color: var(--caccent);
+}

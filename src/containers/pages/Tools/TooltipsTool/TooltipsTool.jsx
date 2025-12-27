@@ -1,7 +1,7 @@
 import './tooltipsTool.css';
-import TooltipNav from './TooltipNav/TooltipNav';
-import TooltipImp from './TooltipImp/TooltipImp';
-import TooltipImpl from './TooltipImpl/Tooltipimpl';
+import TooltipNav from './TooltipNav/TooltipNav.jsx';
+import TooltipImp from './TooltipImp/TooltipImp.jsx';
+import TooltipImpl from './TooltipImpl/Tooltipimpl.jsx';
 
 const TooltipsTool = ({ setParams }) => {
 
@@ -18,12 +18,12 @@ const TooltipsTool = ({ setParams }) => {
                     <p>Versión original</p>
                 </div>
 
-                <TooltipNav />
+                <TooltipNav c={900} />
             </section>
 
             <section className='modBottom'>
-                <p onClick={() => setParams({ sect: 'autocomplete' })}>AutoComplete</p>
-                <p onClick={() => setParams({ sect: 'autocomplete' })}>otro</p>
+                <p onClick={() => setParams({ sect: 'badge' })}>Badge</p>
+                <p onClick={() => setParams({ sect: '' })}>otro</p>
             </section>
         </div>
     );
