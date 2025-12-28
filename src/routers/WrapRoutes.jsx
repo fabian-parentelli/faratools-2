@@ -13,7 +13,7 @@ import Version from "../containers/layouts/Version/Version";
 const WrapRoutes = () => {
 
     return (
-        <BrowserRouter basename="/faratools-2">
+        <BrowserRouter>
             <ScrollToTop>
 
                 <NavBar />
