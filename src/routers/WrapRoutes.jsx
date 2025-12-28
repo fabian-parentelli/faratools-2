@@ -7,9 +7,11 @@ import Pages from "../containers/pages/Pages";
 import Doc from "../containers/pages/Doc/Doc";
 import Icons from "../containers/pages/Icons/Icons";
 import Tools from "../containers/pages/Tools/Tools";
+import WorkSpace from "../containers/layouts/WorkSpace/WorkSpace";
+import Version from "../containers/layouts/Version/Version";
 
 const WrapRoutes = () => {
-    
+
     return (
         <BrowserRouter>
             <ScrollToTop>
@@ -18,6 +20,8 @@ const WrapRoutes = () => {
 
                 <Routes>
                     <Route path="/" element={<Body />} />
+                    <Route path="*" element={<WorkSpace />} />
+                    <Route path="/version" element={<Version />} />
 
                     <Route path="page" element={<Pages />}>
                         <Route path="doc" element={<Doc />} />

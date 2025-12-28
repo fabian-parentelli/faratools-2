@@ -61,16 +61,6 @@ export const toolIcons = [
         link: 'intr'
     },
     {
-        id: 12,
-        name: 'Documentación',
-        mod: '/page/doc?sect=intr'
-    },
-    {
-        id: 13,
-        name: 'Iconos',
-        mod: '/page/icons?sect=import'
-    },
-    {
         id: 15,
         name: 'AutoComplete',
         link: 'autocomplete'
@@ -81,10 +71,26 @@ export const toolIcons = [
         link: 'badge'
     },
     {
+        id: 17,
+        name: 'CharacterCounter',
+        link: 'character'
+    },
+    {
         id: 14,
         name: 'Tooltips',
         link: 'tooltip'
     },
+
+    {
+        id: 12,
+        name: 'Documentación',
+        mod: '/page/doc?sect=intr'
+    },
+    {
+        id: 13,
+        name: 'Iconos',
+        mod: '/page/icons?sect=import'
+    },
 ];
 
-// 16
+// 17

@@ -1,0 +1,49 @@
+.characterToolSect {
+    align-items: flex-start;
+}
+
+.characterToolSect .characterToolDiv {
+    width: 700px;
+}
+
+.characterIntr {
+    margin-top: 1rem;
+    line-height: 2;
+}
+
+.characterCopy {
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.characterInputs {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.characterInputs .characterInputsSect {
+    display: flex;
+    gap: 1rem;
+}
+
+.characterInputs .characterInputsSect div select {
+    background-color: #141414;
+    border: none;
+    width: 200px;
+    border-bottom: 1px solid gray;
+    color: aliceblue;
+}
+
+.characterInputs  div textarea {
+    background-color: #141414;
+    border: none;
+    border-bottom: 1px solid gray;
+    resize: none;
+    color: aliceblue;
+}
+
+.characterView {
+    display: flex;
+    gap: 2rem;
+}

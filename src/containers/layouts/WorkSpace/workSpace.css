@@ -1,0 +1,7 @@
+.workSpace {
+    min-height: 95vh;
+    padding-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

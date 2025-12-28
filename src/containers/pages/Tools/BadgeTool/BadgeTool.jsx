@@ -15,7 +15,7 @@ const BadgeTool = ({ setParams }) => {
                     <BadgeToolExecute />
                 </div>
 
-                <TooltipNav />
+                <TooltipNav b={500} c={900} />
             </section>
 
             <h4 className="colaccent">Actualización</h4>
@@ -24,7 +24,7 @@ const BadgeTool = ({ setParams }) => {
 
             <section className='modBottom'>
                 <p onClick={() => setParams({ sect: 'autocomplete' })}>Autocomplete</p>
-                <p onClick={() => setParams({ sect: 'tooltip' })}>Tooltip</p>
+                <p onClick={() => setParams({ sect: 'character' })}>CharacterCounter</p>
             </section>
         </div>
     );

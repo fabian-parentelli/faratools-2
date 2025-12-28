@@ -20,11 +20,11 @@ const Header = () => {
             </div>
 
             <div className='btns-row'>
-                <Link className='btn decoration-none flex-center btnA'>Inicio</Link>
-                <Link className='btn decoration-none flex-center headerA'>Herramientas</Link>
+                <Link to={'/page/doc?sect=intr'} className='btn decoration-none flex-center btnA'>Inicio</Link>
+                <Link to={'/page/tools?sect=intr'} className='btn decoration-none flex-center headerA'>Herramientas</Link>
             </div>
 
-            <p className='headerVersion'>Version {versions.generic}</p>
+            <Link to={'/version'} className='headerVersion decoration-none'>Versión {versions.generic}</Link>
         </div>
     );
 };

@@ -3,6 +3,7 @@ import ToolsIntro from './ToolsIntro/ToolsIntro';
 import TooltipsTool from './TooltipsTool/TooltipsTool';
 import AutoComTool from './AutoComTool/AutoComTool';
 import BadgeTool from './BadgeTool/BadgeTool';
+import CharacterTool from './CharacterTool/CharacterTool';
 
 const Tools = () => {
     
@@ -14,6 +15,7 @@ const Tools = () => {
             {params?.sect === 'autocomplete' && <AutoComTool setParams={setParams} />}   
             {params?.sect === 'tooltip' && <TooltipsTool setParams={setParams} />}
             {params?.sect === 'badge' && <BadgeTool setParams={setParams} />}
+            {params?.sect === 'character' && <CharacterTool setParams={setParams} />}
         </>
     );
 };

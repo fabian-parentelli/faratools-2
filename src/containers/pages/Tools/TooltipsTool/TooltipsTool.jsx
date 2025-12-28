@@ -22,8 +22,8 @@ const TooltipsTool = ({ setParams }) => {
             </section>
 
             <section className='modBottom'>
-                <p onClick={() => setParams({ sect: 'badge' })}>Badge</p>
-                <p onClick={() => setParams({ sect: '' })}>otro</p>
+                <p onClick={() => setParams({ sect: 'character' })}>CharacterCounter</p>
+                <p onClick={() => setParams({ sect: '' })}></p>
             </section>
         </div>
     );
