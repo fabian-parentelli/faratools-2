@@ -26,7 +26,7 @@ const NavBar = () => {
             </div>
 
             <section className='navBarSect' style={{ transform: window.innerWidth < 767 ? `translateX(${traslate})` : '' }}>
-                <img src="/logo.png" width='30px' alt="logo" onClick={() => navigate('/')} />
+                <img src={`${import.meta.env.BASE_URL}logo.png`} width='30px' alt="logo" onClick={() => navigate('/')} />
                 <Link to={'/page/doc?sect=intr'}>Doc</Link>
                 <Link to={'/page/icons?sect=import'}>Iconos</Link>
                 <Link to={'/page/tools?sect=intr'}>Tools</Link>

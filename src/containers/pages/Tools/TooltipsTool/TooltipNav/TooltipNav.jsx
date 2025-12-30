@@ -21,7 +21,7 @@ const TooltipNav = ({ b = 400, c = 800 }) => {
             <p style={{ color: scroll < b ? '#00a67e' : 'white' }} onClick={() => scrollTo(0)}>Importación</p>
             <p style={{ color: (scroll >= b && scroll < c) ? '#00a67e' : 'white' }} onClick={() => scrollTo(b)}>Implementación</p>
             <p style={{ color: scroll >= c ? '#00a67e' : 'white' }} onClick={() => scrollTo(c)}>Actualización</p>
-            <img src="/logo.png" width='100px' alt="" />
+            <img src={`${import.meta.env.BASE_URL}logo.png`} width='100px' alt="" />
         </div>
     );
 };

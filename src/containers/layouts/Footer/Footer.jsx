@@ -9,7 +9,7 @@ const Footer = () => {
         <div className='footer'>
 
             <Link to={'/'} className='footerA'>
-                <img src="/logo.png" width={'30px'} alt="carrot" />
+                <img src={`${import.meta.env.BASE_URL}logo.png`} width={'30px'} alt="carrot" />
                 <p>Faraday´s Tools</p>
             </Link>
 
@@ -24,7 +24,7 @@ const Footer = () => {
 
                 <div className='footerBottomL'>
                     <Link to={'/'}>
-                        <img src='/logo.png' width={'50px'} alt="logo" />
+                        <img src={`${import.meta.env.BASE_URL}logo.png`} width={'50px'} alt="logo" />
                     </Link>
                     <p className='footerBottomCata'>Faraday´s Tools</p>
                     <FooterSocial />
@@ -34,7 +34,7 @@ const Footer = () => {
                     <p className='pgray'>© 2025 Faraday's House </p>
 
                     <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
-                        <img className='footerBottomImg' src='/faraday.png' width='30px' alt="img" />
+                        <img className='footerBottomImg' src={`${import.meta.env.BASE_URL}faraday.png`} width='30px' alt="img" />
                     </a>
                     <p className='pgray'>Todos los derechos reservados.</p>
 

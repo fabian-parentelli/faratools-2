@@ -6,9 +6,6 @@ const AutoComExCode = ({ values, keys }) => {
 
     const [data, setData] = useState(null);
 
-    console.log(data);
-    
-
     return (
         <div className="autoComExCode">
 

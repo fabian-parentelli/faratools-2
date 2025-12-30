@@ -4,7 +4,7 @@ const WorkSpace = () => {
 
     return (
         <div className="workSpace">
-            <img src="/logo.png" alt="img" width='150px' />
+            <img src={`${import.meta.env.BASE_URL}logo.png`} alt="img" width='150px' />
             
             <div>
                 <h1>Zona de trabajo</h1>

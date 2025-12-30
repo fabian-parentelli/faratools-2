@@ -20,7 +20,7 @@ const Sider = ({ params, setParams }) => {
         <div className="sider">
 
             <section className='siderTop'>
-                <img src="/logo.png" width='20px' alt="img" />
+                <img src={`${import.meta.env.BASE_URL}logo.png`} width='20px' alt="img" />
                 <h5>Navegación</h5>
             </section>
 

@@ -13,7 +13,7 @@ const Intro = ({ setParams }) => {
             </section>
 
             <section className='modBottom'>
-                <img src="/logo.png" width='60px' alt="img" />
+                <img src={`${import.meta.env.BASE_URL}logo.png`} width='60px' alt="img" />
                 <p onClick={() => setParams({ sect: 'inst' })}>Instalación</p>
             </section>
 

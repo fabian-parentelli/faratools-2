@@ -19,9 +19,13 @@ const CharacterTool = ({ setParams }) => {
                 <TooltipNav />
             </section>
 
+            <h4 className="colaccent">Actualización</h4>
+
+            <p>Versión original</p>
+
             <section className='modBottom'>
                 <p onClick={() => setParams({ sect: 'badge' })}>Badge</p>
-                <p onClick={() => setParams({ sect: 'tooltip' })}>Tooltips</p>
+                <p onClick={() => setParams({ sect: 'chebockses' })}>CheckBoxes</p>
             </section>
         </div>
     );

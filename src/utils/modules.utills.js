@@ -76,6 +76,11 @@ export const toolIcons = [
         link: 'character'
     },
     {
+        id: 18,
+        name: 'CheckBoxes',
+        link: 'chebockses'
+    },
+    {
         id: 14,
         name: 'Tooltips',
         link: 'tooltip'
@@ -93,4 +98,4 @@ export const toolIcons = [
     },
 ];
 
-// 17
+// 18
