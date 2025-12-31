@@ -22,7 +22,7 @@ const TooltipsTool = ({ setParams }) => {
             </section>
 
             <section className='modBottom'>
-                <p onClick={() => setParams({ sect: 'chebockses' })}>CheckBoxes</p>
+                <p onClick={() => setParams({ sect: 'cloudfile' })}>CloudFile</p>
                 <p onClick={() => setParams({ sect: '' })}></p>
             </section>
         </div>

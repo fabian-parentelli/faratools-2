@@ -81,6 +81,11 @@ export const toolIcons = [
         link: 'chebockses'
     },
     {
+        id: 19,
+        name: 'CloudFile',
+        link: 'cloudfile'
+    },
+    {
         id: 14,
         name: 'Tooltips',
         link: 'tooltip'
@@ -98,4 +103,4 @@ export const toolIcons = [
     },
 ];
 
-// 18
+// 19

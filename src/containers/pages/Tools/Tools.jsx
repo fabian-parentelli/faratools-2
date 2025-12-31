@@ -5,6 +5,7 @@ import AutoComTool from './AutoComTool/AutoComTool';
 import BadgeTool from './BadgeTool/BadgeTool';
 import CharacterTool from './CharacterTool/CharacterTool';
 import CheckBoxesTool from './CheckBoxesTool/CheckBoxesTool';
+import CloudFileTools from './CloudFileTools/CloudFileTools';
 
 const Tools = () => {
     
@@ -17,6 +18,7 @@ const Tools = () => {
             {params?.sect === 'badge' && <BadgeTool setParams={setParams} />}
             {params?.sect === 'character' && <CharacterTool setParams={setParams} />}
             {params?.sect === 'chebockses' && <CheckBoxesTool setParams={setParams} />}
+            {params?.sect === 'cloudfile' && <CloudFileTools setParams={setParams} />}
             {params?.sect === 'tooltip' && <TooltipsTool setParams={setParams} />}
         </>
     );

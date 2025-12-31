@@ -1,7 +1,7 @@
 import './checkBoxesTool.css';
-import CheckBoxExt from './CheckBoxExt';
-import CheckBoxImp from './CheckBoxImp';
-import TooltipNav from '../TooltipsTool/TooltipNav/TooltipNav';
+import CheckBoxExt from './CheckBoxExt.jsx';
+import CheckBoxImp from './CheckBoxImp.jsx';
+import TooltipNav from '../TooltipsTool/TooltipNav/TooltipNav.jsx';
 
 const CheckBoxesTool = ({ setParams }) => {
 
@@ -16,7 +16,7 @@ const CheckBoxesTool = ({ setParams }) => {
                     <CheckBoxExt />
                 </div>
 
-                <TooltipNav />
+                <TooltipNav c={1250} />
             </section>
 
             <h4 className="colaccent">Actualización</h4>
@@ -25,7 +25,7 @@ const CheckBoxesTool = ({ setParams }) => {
 
             <section className='modBottom'>
                 <p onClick={() => setParams({ sect: 'character' })}>CharacterCounter</p>
-                <p onClick={() => setParams({ sect: 'tooltip' })}>Tooltips</p>
+                <p onClick={() => setParams({ sect: 'cloudfile' })}>CloudFile</p>
             </section>
         </div>
     );

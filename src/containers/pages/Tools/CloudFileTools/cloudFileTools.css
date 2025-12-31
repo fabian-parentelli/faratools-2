@@ -1,0 +1,74 @@
+.cloudFileTools {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.cloudFileTools .cloudFileToolsSect {
+    display: flex;
+    gap: 1rem;
+}
+
+.cloudFileTools .cloudFileToolsSect .cloudFileToolsDiv {
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.cloudFileImport {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.cloudFileImport p {
+    line-height: 2;
+    cursor: pointer;
+}
+
+.cloudFileImport .cloudFileImportImp {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.cloudFileCopy {
+    display: flex;
+    cursor: pointer;
+}
+
+.cloudFileInputs {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.cloudFileInputs div select {
+    width: 160px;
+    height: 30px;
+    background-color: #141414;
+    border: none;
+    border-bottom: 1px solid gray;
+    color: aliceblue;
+    margin-top: 6px;
+}
+
+.cloudFileView {
+    margin: 2rem 0;
+    display: flex;
+    gap: 3rem;
+}
+
+.cloudFileExtP {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.cloudFileUpdate {
+    font-size: 14px;
+    line-height: 2;
+}
