@@ -16,7 +16,7 @@
 }
 
 .footerColumnText p:hover {
-    color: var(--cole);
+    color: var(--caccent);
 }
 
 .footerColumnPCMobile {

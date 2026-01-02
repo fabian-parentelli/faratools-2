@@ -1,0 +1,35 @@
+.copyToolsSect {
+    display: flex;
+    gap: 1rem;
+}
+
+.copyToolsSect .copyToolsSectDiv {
+    width: 750px;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.copyToolsInputs {
+    display: flex;
+    gap: 1rem;
+}
+
+.copyToolsInputs div select {
+    margin-bottom: 2rem;
+    width: 180px;
+    height: 30px;
+    background-color: #141414;
+    border: none;
+    border-bottom: 1px solid gray;
+    color: whitesmoke;
+}
+
+.copyToolsView {
+    display: flex;
+    align-items: center;
+    gap: 10rem;
+}
+
+.copyToolsViewSect {
+    width: 400px;   
+}

@@ -81,6 +81,9 @@ const columnC = {
         { text: 'Autocomplete', link: '/page/tools?sect=autocomplete' },
         { text: 'Badge', link: '/page/tools?sect=badge' },
         { text: 'CharacterCounter', link: '/page/tools?sect=character' },
+        { text: 'CheckBoxes', link: '/page/tools?sect=chebockses' },
+        { text: 'Cloudfile', link: '/page/tools?sect=cloudfile' },
+        { text: 'Copy', link: '/page/tools?sect=copy' },
         { text: 'Tooltips', link: '/page/tools?sect=tooltip' },
     ]
 };

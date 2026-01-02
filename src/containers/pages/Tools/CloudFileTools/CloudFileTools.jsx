@@ -23,7 +23,7 @@ const CloudFileTools = ({ setParams }) => {
 
             <section className='modBottom'>
                 <p onClick={() => setParams({ sect: 'chebockses' })}>CheckBoxes</p>
-                <p onClick={() => setParams({ sect: 'tooltip' })}>Tootips</p>
+                <p onClick={() => setParams({ sect: 'copy' })}>Copy</p>
             </section>
         </div>
     );

@@ -86,6 +86,11 @@ export const toolIcons = [
         link: 'cloudfile'
     },
     {
+        id: 20,
+        name: 'Copy',
+        link: 'copy'
+    },
+    {
         id: 14,
         name: 'Tooltips',
         link: 'tooltip'
@@ -103,4 +108,4 @@ export const toolIcons = [
     },
 ];
 
-// 19
+// 20
