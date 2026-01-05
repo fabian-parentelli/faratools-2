@@ -91,6 +91,11 @@ export const toolIcons = [
         link: 'copy'
     },
     {
+        id: 21,
+        name: 'DownPdf',
+        link: 'downpdf'
+    },
+    {
         id: 14,
         name: 'Tooltips',
         link: 'tooltip'
@@ -108,4 +113,4 @@ export const toolIcons = [
     },
 ];
 
-// 20
+// 21

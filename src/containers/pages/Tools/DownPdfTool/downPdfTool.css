@@ -1,0 +1,42 @@
+.downPdfToolSect {
+    display: flex;
+    gap: 1rem;
+    width: 750px;
+}
+
+.downPdfToolDiv {
+    gap: 2rem;
+}
+
+.downPdfToolPara {
+    line-height: 2;
+}
+
+.downPdfToolParaImp {
+    display: flex;
+    align-items: flex-start;
+    gap: 6px;
+}
+
+.downPdfInputs {
+    display: flex;
+    gap: 1rem;
+}
+
+.downPdfInputs div select {
+    width: 180px;
+    background-color: #141414;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid gray;
+    color: aliceblue;
+}
+
+.downPdfView {
+    height: 200px;
+    width: 200px;
+    background-color: rgba(0, 0, 0, 0.247);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -85,6 +85,7 @@ const columnC = {
         { text: 'Cloudfile', link: '/page/tools?sect=cloudfile' },
         { text: 'Copy', link: '/page/tools?sect=copy' },
         { text: 'Tooltips', link: '/page/tools?sect=tooltip' },
+        { text: 'DownPdf', link: '/page/tools?sect=downpdf' },
     ]
 };
 

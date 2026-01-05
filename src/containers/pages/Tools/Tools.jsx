@@ -7,6 +7,7 @@ import CharacterTool from './CharacterTool/CharacterTool';
 import CheckBoxesTool from './CheckBoxesTool/CheckBoxesTool';
 import CloudFileTools from './CloudFileTools/CloudFileTools';
 import CopyTools from './CopyTools/CopyTools';
+import DownPdfTool from './DownPdfTool/DownPdfTool';
 
 const Tools = () => {
     
@@ -22,6 +23,7 @@ const Tools = () => {
             {params?.sect === 'cloudfile' && <CloudFileTools setParams={setParams} />}
             {params?.sect === 'copy' && <CopyTools setParams={setParams} />}
             {params?.sect === 'tooltip' && <TooltipsTool setParams={setParams} />}
+            {params?.sect === 'downpdf' && <DownPdfTool setParams={setParams} />}
         </>
     );
 };

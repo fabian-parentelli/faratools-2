@@ -24,7 +24,7 @@ const CopyTools = ({ setParams }) => {
 
             <section className='modBottom'>
                 <p onClick={() => setParams({ sect: 'cloudfile' })}>Cloudfile</p>
-                <p onClick={() => setParams({ sect: 'tooltip' })}>Tooltips</p>
+                <p onClick={() => setParams({ sect: 'downpdf' })}>DownPdf</p>
             </section>
         </div>
     );

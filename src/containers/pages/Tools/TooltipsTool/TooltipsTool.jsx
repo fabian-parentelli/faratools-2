@@ -22,7 +22,7 @@ const TooltipsTool = ({ setParams }) => {
             </section>
 
             <section className='modBottom'>
-                <p onClick={() => setParams({ sect: 'copy' })}>Copy</p>
+                <p onClick={() => setParams({ sect: 'downpdf' })}>DownPdf</p>
                 <p onClick={() => setParams({ sect: '' })}></p>
             </section>
         </div>
