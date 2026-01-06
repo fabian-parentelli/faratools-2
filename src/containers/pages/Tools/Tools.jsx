@@ -8,6 +8,7 @@ import CheckBoxesTool from './CheckBoxesTool/CheckBoxesTool';
 import CloudFileTools from './CloudFileTools/CloudFileTools';
 import CopyTools from './CopyTools/CopyTools';
 import DownPdfTool from './DownPdfTool/DownPdfTool';
+import ImgHoverTool from './ImgHoverTool/ImgHoverTool';
 
 const Tools = () => {
     
@@ -22,8 +23,9 @@ const Tools = () => {
             {params?.sect === 'chebockses' && <CheckBoxesTool setParams={setParams} />}
             {params?.sect === 'cloudfile' && <CloudFileTools setParams={setParams} />}
             {params?.sect === 'copy' && <CopyTools setParams={setParams} />}
-            {params?.sect === 'tooltip' && <TooltipsTool setParams={setParams} />}
             {params?.sect === 'downpdf' && <DownPdfTool setParams={setParams} />}
+            {params?.sect === 'imghover' && <ImgHoverTool setParams={setParams} />}
+            {params?.sect === 'tooltip' && <TooltipsTool setParams={setParams} />}
         </>
     );
 };

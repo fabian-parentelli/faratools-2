@@ -40,3 +40,12 @@
     align-items: center;
     justify-content: center;
 }
+
+.downPdfUpdate {
+    width: 750px;
+    line-height: 2;
+}
+
+.downPdfUpdate p {
+    font-size: 12px;
+}

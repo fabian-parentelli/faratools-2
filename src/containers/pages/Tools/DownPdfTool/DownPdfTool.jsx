@@ -1,6 +1,7 @@
 import './downPdfTool.css';
 import DownPdfExt from './DownPdfExt.jsx';
 import DownPdfImport from './DownPdfImport.jsx';
+import DownPdfUpdate from './DownPdfUpdate.jsx';
 import TooltipNav from '../TooltipsTool/TooltipNav/TooltipNav.jsx';
 
 const DownPdfTool = ({ setParams }) => {
@@ -14,9 +15,7 @@ const DownPdfTool = ({ setParams }) => {
                 <div className='flex-col downPdfToolDiv'>
                     <DownPdfImport />
                     <DownPdfExt />
-
-                    <h4 className='colaccent'>Actualización</h4>
-                    <p>Versión original</p>
+                    <DownPdfUpdate />
                 </div>
 
                 <TooltipNav b={330} c={900} />
@@ -24,7 +23,7 @@ const DownPdfTool = ({ setParams }) => {
 
             <section className='modBottom'>
                 <p onClick={() => setParams({ sect: 'copy' })}>Copy</p>
-                <p onClick={() => setParams({ sect: 'tooltip' })}>Tooltips</p>
+                <p onClick={() => setParams({ sect: 'imghover' })}>ImgHover</p>
             </section>
         </div>
     );

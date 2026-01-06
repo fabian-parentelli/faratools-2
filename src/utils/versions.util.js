@@ -1,5 +1,5 @@
 const versions = {
-    generic: '0.0.13'
+    generic: '0.0.14'
 };
 
 // Modules, description y link, tienen que ser puestos en orden.
@@ -18,6 +18,13 @@ const versionTable = [
         modules: ['CloudFile'],
         description: ['Se incorporó el prop preImg'],
         links: ['/page/tools?sect=cloudfile']
+    },
+    {
+        date: '2026/01/06',
+        version: '0.0.14',
+        modules: ['Down PDF'],
+        description: ['Se modificó la manera en la que se descarga'],
+        links: ['/page/tools?sect=downpdf']
     },
 ];
 

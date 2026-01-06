@@ -96,6 +96,11 @@ export const toolIcons = [
         link: 'downpdf'
     },
     {
+        id: 22,
+        name: 'ImgHover',
+        link: 'imghover'
+    },
+    {
         id: 14,
         name: 'Tooltips',
         link: 'tooltip'
@@ -113,4 +118,4 @@ export const toolIcons = [
     },
 ];
 
-// 21
+// 22

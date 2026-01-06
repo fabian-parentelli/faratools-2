@@ -1,0 +1,31 @@
+.imgHoverToolSect {
+    display: flex;
+    gap: 1rem;
+}
+
+.imgHoverToolSect .imgHoverToolDiv {
+    width: 750px;
+    gap: 2rem;
+}
+
+.truncate {
+    display: inline-block;
+    max-width: 20ch;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.imgHoverView {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.imgHoverView .imgHoverViewSect {
+    width: 300px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
