@@ -9,6 +9,7 @@ import CloudFileTools from './CloudFileTools/CloudFileTools';
 import CopyTools from './CopyTools/CopyTools';
 import DownPdfTool from './DownPdfTool/DownPdfTool';
 import ImgHoverTool from './ImgHoverTool/ImgHoverTool';
+import LoaderTool from './LoaderTool/LoaderTool';
 
 const Tools = () => {
     
@@ -25,6 +26,7 @@ const Tools = () => {
             {params?.sect === 'copy' && <CopyTools setParams={setParams} />}
             {params?.sect === 'downpdf' && <DownPdfTool setParams={setParams} />}
             {params?.sect === 'imghover' && <ImgHoverTool setParams={setParams} />}
+            {params?.sect === 'loader' && <LoaderTool setParams={setParams} />}
             {params?.sect === 'tooltip' && <TooltipsTool setParams={setParams} />}
         </>
     );

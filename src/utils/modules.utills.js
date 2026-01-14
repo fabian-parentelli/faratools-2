@@ -101,6 +101,11 @@ export const toolIcons = [
         link: 'imghover'
     },
     {
+        id: 23,
+        name: 'Loader',
+        link: 'loader'
+    },
+    {
         id: 14,
         name: 'Tooltips',
         link: 'tooltip'
@@ -118,4 +123,4 @@ export const toolIcons = [
     },
 ];
 
-// 22
+// 23

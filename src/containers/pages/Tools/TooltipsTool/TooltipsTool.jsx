@@ -22,7 +22,7 @@ const TooltipsTool = ({ setParams }) => {
             </section>
 
             <section className='modBottom'>
-                <p onClick={() => setParams({ sect: 'imghover' })}>ImgHover</p>
+                <p onClick={() => setParams({ sect: 'loader' })}>Loader</p>
                 <p onClick={() => setParams({ sect: '' })}></p>
             </section>
         </div>

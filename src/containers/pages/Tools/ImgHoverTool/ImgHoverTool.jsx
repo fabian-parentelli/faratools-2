@@ -24,7 +24,7 @@ const ImgHoverTool = ({ setParams }) => {
 
             <section className='modBottom'>
                 <p onClick={() => setParams({ sect: 'downpdf' })}>Down PDF</p>
-                <p onClick={() => setParams({ sect: 'tooltip' })}>Tooltips</p>
+                <p onClick={() => setParams({ sect: 'loader' })}>Loader</p>
             </section>
         </div>
     );

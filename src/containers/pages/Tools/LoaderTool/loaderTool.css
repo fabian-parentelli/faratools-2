@@ -1,0 +1,44 @@
+.loaderTool .loaderToolSect {
+    display: flex;
+    gap: 1rem;
+}
+
+.loaderTool .loaderToolSect .loaderTooldiv {
+    width: 750px;
+}
+
+.loaderImport {
+    margin: 1rem 0;
+}
+
+.loaderCopy {
+    margin: 1rem 0;
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+.loaderInputs {
+    display: flex;
+    gap: 1rem;
+}
+
+.loaderInputs select {
+    width: 220px;
+    background-color: #141414;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid gray;
+    color: aliceblue;
+}
+
+.loaderView {
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    gap: 10rem;
+}
+
+
+.loaderExt {
+    margin-bottom: 3rem;
+}

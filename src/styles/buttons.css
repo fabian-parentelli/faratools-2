@@ -7,3 +7,13 @@
 .btnA:hover {
     background-color: var(--ctextm);
 }
+
+.btnB {
+    background-color: var(--caccent);
+    color: black;
+    transition: .3s ease-in-out;
+}
+
+.btnB:hover {
+    opacity: 0.8;
+}
