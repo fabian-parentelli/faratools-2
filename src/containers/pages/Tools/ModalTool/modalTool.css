@@ -1,0 +1,41 @@
+.modalTool .modalToolSect {
+    gap: 1rem;
+}
+
+.modalTool .modalToolSect .modalToolDiv {
+    width: 750px;
+}
+
+.modalImport {
+    margin: 1rem 0;
+}
+
+.modalImport .modalImportP {
+    line-height: 1.8;
+}
+
+.modalCopy {
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+.modalInputs {
+    display: flex;
+    gap: 1rem;
+}
+
+.modalInputs select {
+    width: 115px;
+    background-color: #141414;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid gray;
+    color: aliceblue;
+}
+
+.modalView {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}

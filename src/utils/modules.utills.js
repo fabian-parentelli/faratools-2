@@ -106,6 +106,11 @@ export const toolIcons = [
         link: 'loader'
     },
     {
+        id: 24,
+        name: 'Modal',
+        link: 'modal'
+    },
+    {
         id: 14,
         name: 'Tooltips',
         link: 'tooltip'
@@ -123,4 +128,4 @@ export const toolIcons = [
     },
 ];
 
-// 23
+// 24

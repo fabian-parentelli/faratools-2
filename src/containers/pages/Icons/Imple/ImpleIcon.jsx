@@ -14,7 +14,7 @@ const ImpleIcon = () => {
     return (
         <section className='cod-back impleDiv' onClick={handleCopy}>
             <pre><code>
-                <p><span className='cod-gray'>{'<'}</span><span className='cod-green'>Tooltip</span> <span className='cod-skyblue'>type</span>=<span className='cod-orange'>'app'</span> <span className='cod-gray'>/</span><span className='cod-gray'>{'>'}</span></p>
+                <p><span className='cod-gray'>{'<'}</span><span className='cod-green'>Icons</span> <span className='cod-skyblue'>type</span>=<span className='cod-orange'>'app'</span> <span className='cod-gray'>/</span><span className='cod-gray'>{'>'}</span></p>
             </code></pre>
 
             <Tooltip text='Copiar' position='right'>

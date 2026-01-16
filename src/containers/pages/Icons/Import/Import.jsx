@@ -27,7 +27,7 @@ const Import = ({ setParams }) => {
                     </code></pre>
 
                     <Tooltip text='Copiar' position='right'>
-                        <Icons type={copy.type === 'dev' ? 'success' : 'copy'} size='23px' hover={true} />
+                        <Icons type={copy ? 'success' : 'copy'} size='23px' hover={true} />
                     </Tooltip>
                 </div>
             </section>

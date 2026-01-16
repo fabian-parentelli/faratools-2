@@ -24,7 +24,7 @@ const LoaderTool = ({ setParams }) => {
 
             <section className='modBottom'>
                 <p onClick={() => setParams({ sect: 'imghover' })}>ImgHover</p>
-                <p onClick={() => setParams({ sect: 'tooltip' })}>Tooltips</p>
+                <p onClick={() => setParams({ sect: 'modal' })}>Modal</p>
             </section>
         </div>
     );
