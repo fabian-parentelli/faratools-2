@@ -11,6 +11,7 @@ import DownPdfTool from './DownPdfTool/DownPdfTool';
 import ImgHoverTool from './ImgHoverTool/ImgHoverTool';
 import LoaderTool from './LoaderTool/LoaderTool';
 import ModalTool from './ModalTool/ModalTool';
+import PagerTool from './PagerTool/PagerTool';
 
 const Tools = () => {
     
@@ -29,6 +30,7 @@ const Tools = () => {
             {params?.sect === 'imghover' && <ImgHoverTool setParams={setParams} />}
             {params?.sect === 'loader' && <LoaderTool setParams={setParams} />}
             {params?.sect === 'modal' && <ModalTool setParams={setParams} />}
+            {params?.sect === 'pager' && <PagerTool setParams={setParams} />}
             {params?.sect === 'tooltip' && <TooltipsTool setParams={setParams} />}
         </>
     );

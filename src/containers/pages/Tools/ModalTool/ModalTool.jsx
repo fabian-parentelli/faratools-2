@@ -24,7 +24,7 @@ const ModalTool = ({ setParams }) => {
 
             <section className='modBottom'>
                 <p onClick={() => setParams({ sect: 'loader' })}>Loader</p>
-                <p onClick={() => setParams({ sect: 'tooltip' })}>Tooltips</p>
+                <p onClick={() => setParams({ sect: 'pager' })}>Pager</p>
             </section>
         </div>
     );
