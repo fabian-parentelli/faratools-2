@@ -1,0 +1,42 @@
+.printTool .printToolSect {
+    display: flex;
+    gap: 1rem;
+}
+
+.printTool .printToolSect .printToolDiv {
+    width: 750px;
+}
+
+.printInputs {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0;
+    padding-bottom: 2rem;
+}
+
+.printInputs select {
+    width: 170px;
+    background-color: #141414;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid gray;
+    color: aliceblue;
+}
+
+.printView {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+}
+
+.divPrintA {
+    font-size: 1rem;
+}
+
+.divPrintB {
+    font-size: 2rem;
+}
+
+.divPrintC {
+    font-size: 4rem;
+}

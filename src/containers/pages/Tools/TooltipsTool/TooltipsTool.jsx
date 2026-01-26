@@ -22,7 +22,7 @@ const TooltipsTool = ({ setParams }) => {
             </section>
 
             <section className='modBottom'>
-                <p onClick={() => setParams({ sect: 'pager' })}>Pager</p>
+                <p onClick={() => setParams({ sect: 'print' })}>Print</p>
                 <p onClick={() => setParams({ sect: '' })}></p>
             </section>
         </div>

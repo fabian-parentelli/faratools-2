@@ -116,6 +116,11 @@ export const toolIcons = [
         link: 'pager'
     },
     {
+        id: 26,
+        name: 'Print',
+        link: 'print'
+    },
+    {
         id: 14,
         name: 'Tooltips',
         link: 'tooltip'
@@ -133,4 +138,4 @@ export const toolIcons = [
     },
 ];
 
-// 25
+// 26

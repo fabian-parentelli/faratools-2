@@ -19,12 +19,12 @@ const PagerTool = ({ setParams }) => {
                     <p>Versión original</p>
                 </div>
 
-                <TooltipNav />
+                <TooltipNav b={350} c={900} />
             </section>
 
             <section className='modBottom'>
                 <p onClick={() => setParams({ sect: 'modal' })}>Modal</p>
-                <p onClick={() => setParams({ sect: 'tooltip' })}>Tooltip</p>
+                <p onClick={() => setParams({ sect: 'print' })}>Print</p>
             </section>
         </div>
     );
