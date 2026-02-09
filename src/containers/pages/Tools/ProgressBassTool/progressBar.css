@@ -1,0 +1,30 @@
+.progressbar .progressbarSect {
+    display: flex;
+    gap: 1rem;
+}
+
+.progressbar .progressbarSect .progressbarDiv {
+    width: 750px;
+}
+
+.progressBarrInputs {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0;
+    padding-bottom: 2rem;
+}
+
+.progressBarrInputs select {
+    width: 170px;
+    background-color: #141414;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid gray;
+    color: aliceblue;
+}
+
+.progressBarView {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}

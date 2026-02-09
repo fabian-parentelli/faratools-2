@@ -7,6 +7,25 @@
     gap: 1rem;
     background-color: var(--cactive);
     border-radius: 0 8px 8px 0;
+    height: 90vh;
+    overflow-y: auto;
+}
+
+.sider::-webkit-scrollbar {
+    width: 6px;
+}
+
+.sider::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.sider::-webkit-scrollbar-thumb {
+    background: var(--caccent);
+    border-radius: 10px;
+}
+
+.sider::-webkit-scrollbar-thumb:hover {
+    background: var(--cbg2);
 }
 
 .sider .siderTop {

@@ -24,7 +24,7 @@ const PrintTool = ({ setParams }) => {
 
             <section className='modBottom'>
                 <p onClick={() => setParams({ sect: 'pager' })}>Pager</p>
-                <p onClick={() => setParams({ sect: 'tooltip' })}>Tooltip</p>
+                <p onClick={() => setParams({ sect: 'progressbar' })}>ProgressBar</p>
             </section>
         </div>
     );

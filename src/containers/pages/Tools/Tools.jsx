@@ -13,6 +13,7 @@ import LoaderTool from './LoaderTool/LoaderTool';
 import ModalTool from './ModalTool/ModalTool';
 import PagerTool from './PagerTool/PagerTool';
 import PrintTool from './PrintTool/PrintTool';
+import ProgressBar from './ProgressBassTool/ProgressBar';
 
 const Tools = () => {
     
@@ -33,6 +34,7 @@ const Tools = () => {
             {params?.sect === 'modal' && <ModalTool setParams={setParams} />}
             {params?.sect === 'pager' && <PagerTool setParams={setParams} />}
             {params?.sect === 'print' && <PrintTool setParams={setParams} />}
+            {params?.sect === 'progressbar' && <ProgressBar setParams={setParams} />}
             {params?.sect === 'tooltip' && <TooltipsTool setParams={setParams} />}
         </>
     );

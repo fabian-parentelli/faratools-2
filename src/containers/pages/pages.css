@@ -7,6 +7,31 @@
     gap: 1rem;
 }
 
+.pages .pagesSect {
+    height: 90vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-bottom: 3rem;
+}
+
+.pagesSect::-webkit-scrollbar {
+    width: 4px;
+}
+
+.pagesSect::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.pagesSect::-webkit-scrollbar-thumb {
+    background: var(--caccent);
+    border-radius: 6px;
+}
+
+.pagesSect::-webkit-scrollbar-thumb:hover {
+    background: var(--cbg2);
+}
+
+
 @media (max-width: 767px) {
 
     .pages {
