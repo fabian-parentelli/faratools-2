@@ -126,6 +126,11 @@ export const toolIcons = [
         link: 'progressbar'
     },
     {
+        id: 28,
+        name: 'Popup',
+        link: 'popup'
+    },
+    {
         id: 14,
         name: 'Tooltips',
         link: 'tooltip'
@@ -143,4 +148,4 @@ export const toolIcons = [
     },
 ];
 
-// 27
+// 28

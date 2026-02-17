@@ -22,7 +22,7 @@ const TooltipsTool = ({ setParams }) => {
             </section>
 
             <section className='modBottom'>
-                <p onClick={() => setParams({ sect: 'progressbar' })}>ProgressBar</p>
+                <p onClick={() => setParams({ sect: 'popup' })}>Popup</p>
                 <p onClick={() => setParams({ sect: '' })}></p>
             </section>
         </div>

@@ -1,0 +1,30 @@
+.popupTool .popupToolSect {
+    display: flex;
+    gap: 1rem;
+}
+
+.popupTool .popupToolSect .popupToolDiv {
+    width: 750px;
+}
+
+.popupInputs {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0;
+    padding-bottom: 2rem;
+}
+
+.popupInputs select {
+    width: 110px;
+    background-color: #141414;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid gray;
+    color: aliceblue;
+}
+
+.popupView {
+    display: flex;
+    align-items: center;
+    gap: 10rem;
+}

@@ -24,7 +24,7 @@ const ProgressBar = ({ setParams }) => {
 
             <section className='modBottom'>
                 <p onClick={() => setParams({ sect: 'print' })}>Print</p>
-                <p onClick={() => setParams({ sect: 'tooltip' })}>Tooltip</p>
+                <p onClick={() => setParams({ sect: 'popup' })}>Popup</p>
             </section>
         </div>
     );
