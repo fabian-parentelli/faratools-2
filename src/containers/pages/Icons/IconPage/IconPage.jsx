@@ -141,6 +141,11 @@ const iconArray = [
             { cat: 'ui', name: 'eye' },
             { cat: 'ui', name: 'eyeclosed' },
             { cat: 'files', name: 'folder' },
+            { cat: 'ui', name: 'arrowres' },
+            { cat: 'ui', name: 'arrowsend' },
+            { cat: 'ui', name: 'reload' },
+            { cat: 'ui', name: 'upload' },
+            { cat: 'ui', name: 'zoom' },
         ]
     },
     {
@@ -156,6 +161,8 @@ const iconArray = [
             { cat: 'media', name: 'filemusic' },
             { cat: 'ui', name: 'bookUser' },
             { cat: 'ui', name: 'book' },
+            { cat: 'ui', name: 'article' },
+            { cat: 'ui', name: 'articleoff' },
         ]
     },
     {
