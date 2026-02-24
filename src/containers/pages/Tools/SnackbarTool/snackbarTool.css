@@ -1,0 +1,30 @@
+.snackbarTool .snackbarToolSect {
+    display: flex;
+    gap: 1rem;
+}
+
+.snackbarTool .snackbarToolSect .snackbarToolDiv {
+    width: 750px;
+}
+
+.snackInputs {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0;
+    padding-bottom: 2rem;
+}
+
+.snackInputs select {
+    width: 170px;
+    background-color: #141414;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid gray;
+    color: white;
+}
+
+.snackbarView {
+    display: flex;
+    align-items: center;
+    gap: 8rem;
+}

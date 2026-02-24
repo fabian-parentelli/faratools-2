@@ -1,5 +1,5 @@
 const versions = {
-    generic: '0.0.14'
+    generic: '0.0.15'
 };
 
 // Modules, description y link, tienen que ser puestos en orden.
@@ -25,6 +25,13 @@ const versionTable = [
         modules: ['Down PDF'],
         description: ['Se modificó la manera en la que se descarga'],
         links: ['/page/tools?sect=downpdf']
+    },
+    {
+        date: '2026/02/24',
+        version: '0.0.15',
+        modules: ['Iconos'],
+        description: ['Incorporación de 7 nuevos íconos'],
+        links: ['/page/icons?sect=update']
     },
 ];
 

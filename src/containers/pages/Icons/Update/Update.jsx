@@ -2,6 +2,7 @@ import './update.css';
 import { useNavigate } from 'react-router-dom';
 import UpdateNav from './UpdateNav/UpdateNav.jsx';
 import Update0012 from "./Upd_0.0.12/Upd_0.0.12.jsx";
+import Update0015 from './Upd_0.0.15/Update0015.jsx';
 
 const Update = ({ setParams }) => {
 
@@ -13,8 +14,10 @@ const Update = ({ setParams }) => {
             
             <section className='updateSect'>
                 
-                <div>
+                <div className='flex-col'>
                     <Update0012 />
+                    <br />
+                    <Update0015 />
                 </div>
 
                 <UpdateNav />

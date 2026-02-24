@@ -15,6 +15,7 @@ import PagerTool from './PagerTool/PagerTool';
 import PrintTool from './PrintTool/PrintTool';
 import ProgressBar from './ProgressBassTool/ProgressBar';
 import PopupTool from './PopupTool/PopupTool';
+import SnackbarTool from './SnackbarTool/SnackbarTool';
 
 const Tools = () => {
     
@@ -37,6 +38,7 @@ const Tools = () => {
             {params?.sect === 'print' && <PrintTool setParams={setParams} />}
             {params?.sect === 'progressbar' && <ProgressBar setParams={setParams} />}
             {params?.sect === 'popup' && <PopupTool setParams={setParams} />}
+            {params?.sect === 'snackbar' && <SnackbarTool setParams={setParams} />}
             {params?.sect === 'tooltip' && <TooltipsTool setParams={setParams} />}
         </>
     );

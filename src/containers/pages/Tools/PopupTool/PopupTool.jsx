@@ -24,7 +24,7 @@ const PopupTool = ({ setParams }) => {
 
             <section className='modBottom'>
                 <p onClick={() => setParams({ sect: 'progressbar' })}>ProgressBar</p>
-                <p onClick={() => setParams({ sect: 'tooltip' })}>Tooltips</p>
+                <p onClick={() => setParams({ sect: 'snackbar' })}>Snackbar</p>
             </section>
         </div>
     );

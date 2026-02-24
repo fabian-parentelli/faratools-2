@@ -131,6 +131,11 @@ export const toolIcons = [
         link: 'popup'
     },
     {
+        id: 29,
+        name: 'Snackbar',
+        link: 'snackbar'
+    },
+    {
         id: 14,
         name: 'Tooltips',
         link: 'tooltip'
