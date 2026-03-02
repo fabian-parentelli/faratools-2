@@ -23,7 +23,7 @@ const PrintView = ({ values }) => {
                     <p style={{ marginTop: '6px' }}>     <span className="cod-skyblue">color</span>=<span className="cod-orange">'{values.color}'</span></p>
                     <p style={{ marginTop: '6px' }}>     <span className="cod-skyblue">size</span>=<span className="cod-orange">'{values.size}'</span></p>
                     <p style={{ marginTop: '6px' }}>     <span className="cod-skyblue">position</span>=<span className="cod-orange">'{values.position}'</span></p>
-                    <p style={{ marginTop: '6px' }}>     <span className="cod-skyblue">position</span>=<span className="cod-blue">{'{'}</span><span className="cod-skyyellow">ref</span><span className="cod-blue">{'}'}</span></p>
+                    <p style={{ marginTop: '6px' }}>     <span className="cod-skyblue">useRef</span>=<span className="cod-blue">{'{'}</span><span className="cod-skyyellow">ref</span><span className="cod-blue">{'}'}</span></p>
                     <p style={{ marginTop: '6px' }}>     <span className="cod-skyblue">bodyClass</span>=<span className="cod-orange">'{values.bodyClass}'</span></p>
                     <p style={{ marginTop: '6px' }}><span className="cod-gray">{'/>'}</span></p>
                 </code>

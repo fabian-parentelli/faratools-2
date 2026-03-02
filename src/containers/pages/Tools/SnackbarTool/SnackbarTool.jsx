@@ -24,7 +24,7 @@ const SnackbarTool = ({ setParams }) => {
 
             <section className='modBottom'>
                 <p onClick={() => setParams({ sect: 'popup' })}>Popup</p>
-                <p onClick={() => setParams({ sect: 'tooltip' })}>Tooltip</p>
+                <p onClick={() => setParams({ sect: 'spinner' })}>Spinner</p>
             </section>
         </div>
     );

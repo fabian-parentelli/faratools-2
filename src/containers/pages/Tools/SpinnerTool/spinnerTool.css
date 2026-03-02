@@ -1,0 +1,30 @@
+.spinnerTool .spinnerToolSect {
+    display: flex;
+    gap: 1rem;
+}
+
+.spinnerTool .spinnerToolSect .spinnerToolDiv {
+    width: 750px;
+}
+
+.spinnerInputs {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0;
+    padding-bottom: 2rem;
+}
+
+.spinnerInputs select {
+    width: 170px;
+    background-color: #141414;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid gray;
+    color: aliceblue;
+}
+
+.spinnerView {
+    display: flex;
+    align-items: center;
+    gap: 6rem;
+}

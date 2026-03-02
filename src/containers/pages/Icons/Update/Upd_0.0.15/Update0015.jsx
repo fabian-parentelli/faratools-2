@@ -13,7 +13,7 @@ const Update0015 = () => {
 
     return (
         <div className="update0012">
-            <h4>Actualización 0.0.12</h4>
+            <h4>Actualización 0.0.15</h4>
             <p>En la actualización 0.0.15 se incorporaron 7 nuevos íconos al set.</p>
             <p>Los íconos añadidos son:</p>
 

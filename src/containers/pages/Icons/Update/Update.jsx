@@ -15,9 +15,9 @@ const Update = ({ setParams }) => {
             <section className='updateSect'>
                 
                 <div className='flex-col'>
-                    <Update0012 />
-                    <br />
                     <Update0015 />
+                    <br />
+                    <Update0012 />
                 </div>
 
                 <UpdateNav />

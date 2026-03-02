@@ -136,6 +136,11 @@ export const toolIcons = [
         link: 'snackbar'
     },
     {
+        id: 30,
+        name: 'Spinner',
+        link: 'spinner'
+    },
+    {
         id: 14,
         name: 'Tooltips',
         link: 'tooltip'
@@ -153,4 +158,4 @@ export const toolIcons = [
     },
 ];
 
-// 28
+// 30
