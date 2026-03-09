@@ -141,6 +141,11 @@ export const toolIcons = [
         link: 'spinner'
     },
     {
+        id: 31,
+        name: 'SpinnerH',
+        link: 'spinnerh'
+    },
+    {
         id: 14,
         name: 'Tooltips',
         link: 'tooltip'

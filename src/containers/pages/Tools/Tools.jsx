@@ -17,6 +17,7 @@ import ProgressBar from './ProgressBassTool/ProgressBar';
 import PopupTool from './PopupTool/PopupTool';
 import SnackbarTool from './SnackbarTool/SnackbarTool';
 import SpinnerTool from './SpinnerTool/SpinnerTool';
+import SpinnerHorTool from './SpinnerHorTool/SpinnerHorTool';
 
 const Tools = () => {
     
@@ -41,6 +42,7 @@ const Tools = () => {
             {params?.sect === 'popup' && <PopupTool setParams={setParams} />}
             {params?.sect === 'snackbar' && <SnackbarTool setParams={setParams} />}
             {params?.sect === 'spinner' && <SpinnerTool setParams={setParams} />}
+            {params?.sect === 'spinnerh' && <SpinnerHorTool setParams={setParams} />}
             {params?.sect === 'tooltip' && <TooltipsTool setParams={setParams} />}
         </>
     );

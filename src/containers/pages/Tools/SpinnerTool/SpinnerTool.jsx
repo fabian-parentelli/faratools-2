@@ -7,7 +7,7 @@ const SpinnerTool = ({ setParams }) => {
 
     return (
         <div className="spinnerTool flex-col">
-            <h2>Snackbar</h2>
+            <h2>Spinner</h2>
 
             <section className='spinnerToolSect'>
 
@@ -24,7 +24,7 @@ const SpinnerTool = ({ setParams }) => {
 
             <section className='modBottom'>
                 <p onClick={() => setParams({ sect: 'snackbar' })}>Snackbar</p>
-                <p onClick={() => setParams({ sect: 'tooltip' })}>Tooltip</p>
+                <p onClick={() => setParams({ sect: 'spinnerh' })}>SpinnerH</p>
             </section>
         </div>
     );

@@ -8,7 +8,7 @@ const IconPage = ({ setParams }) => {
 
     const handleCopy = (name) => {
         setSnack({ open: true, message: name, status: 'success' });
-        navigator.clipboard.writeText(`<Icons type='${name}' />`);
+        navigator.clipboard.writeText(name);
         setTimeout(() => { setSnack({ open: false, status: 'success', message: null }) }, 2000);
     };
 

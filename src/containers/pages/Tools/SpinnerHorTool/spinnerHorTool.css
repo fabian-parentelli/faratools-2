@@ -1,0 +1,30 @@
+.spinnerHorTool .spinnerHorToolSect {
+    display: flex;
+    gap: 1rem;
+}
+
+.spinnerHorTool .spinnerHorToolSect .spinnerHorToolDiv {
+    width: 750px;
+}
+
+.spinnerHorInputs {
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 0;
+    padding-bottom: 2rem;
+}
+
+.spinnerHorInputs select {
+    width: 110px;
+    background-color: #141414;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid gray;
+    color: aliceblue;
+}
+
+.spinnerHorView {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
