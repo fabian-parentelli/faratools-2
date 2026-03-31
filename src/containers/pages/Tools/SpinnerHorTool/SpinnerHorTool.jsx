@@ -24,7 +24,7 @@ const SpinnerHorTool = ({ setParams }) => {
 
             <section className='modBottom'>
                 <p onClick={() => setParams({ sect: 'spinner' })}>Spinner</p>
-                <p onClick={() => setParams({ sect: 'tooltip' })}>Tooltip</p>
+                <p onClick={() => setParams({ sect: 'switch' })}>Switch</p>
             </section>
         </div>
     );

@@ -1,4 +1,4 @@
-import WrapRoutes from "./routers/WrapRoutes";
+import WrapRoutes from "./routers/WrapRoutes.jsx";
 
 const App = () => {
 

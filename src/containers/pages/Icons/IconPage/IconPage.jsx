@@ -1,5 +1,5 @@
-import { useState } from 'react';
 import './iconPage.css';
+import { useState } from 'react';
 import { Icons, Snackbar } from 'fara-comp-react';
 
 const IconPage = ({ setParams }) => {

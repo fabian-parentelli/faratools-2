@@ -1,0 +1,14 @@
+.switchTool .switchToolSect {
+    display: flex;
+    gap: 1rem;
+}
+
+.switchTool .switchToolSect .switchToolDiv {
+    width: 750px;
+}
+
+.switchView {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
